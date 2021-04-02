@@ -7,15 +7,18 @@ variable
 */
 int cuadrado (int variable)
 {
-    cuadrado = variable*variable;
+    int cuadr;
+    cuadr = variable*variable;
+    return cuadr;
 }
+
 int main()
 {
-    int variable, resultado;
-    printf("ingrese un numero : ");
-    scanf(&variable);
-    resultado = cuadrado(variable);
-    printf("el numero",variable,"al cuadrado es: ", resultado);
-
-
+    int var, resultado;
+    printf("ingrese un numero : \n");
+    scanf("%d",&var);
+    resultado = cuadrado(var);
+    printf("al cuadrado es: %d \n", resultado);
+    getchar();
+    return 0;
 }
