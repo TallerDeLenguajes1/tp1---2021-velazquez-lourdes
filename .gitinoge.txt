@@ -84,6 +84,13 @@ dkms.conf
 ! .vscode / tasks.json
 ! .vscode / launch.json
 * .code-espacio de trabajo
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
 ### Parche VisualStudioCode ###
 # Ignorar todo el historial local de archivos
