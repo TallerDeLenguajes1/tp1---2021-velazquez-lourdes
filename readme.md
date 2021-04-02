@@ -4,7 +4,7 @@
 
 **Investigar el archivo .gitignore**
 ***
--¿Por qué es conveniente incluirlo?
+- ¿Por qué es conveniente incluirlo?
 Hay código que no necesitas enviar a Git, ya sea porque sea privado para un desarrollador.
 Pueden ser también archivos binarios con datos que no necesitas mantener en el control de versiones,
 como diagramas, instaladores de software, etc.
@@ -14,14 +14,13 @@ Otro claro ejemplo de uso de gitignore son los archivos que crean los sistemas o
 archivos que muchas veces están ocultos y no los vemos, pero que existen. Si no evitas que Git los procese, estarán 
 en tu proyecto como cualquier otro archivo de código y generalmente es algo que no quieres que ocurra.
 ***
--¿Cuándo se debe hacer?
+- ¿Cuándo se debe hacer?
  Se de hacer antes de subir el proyecto en el cual de esta trabanjo a github
 ***
 - ¿Cómo usaría la página https://www.gitignore.io/? y ¿Cómo configuraría el archivo .gitignore?
 crear un block de nota con el nombre .gitignore
-´´´
-.gitignore.txt
 
+´´´.gitignore.txt
 ´´´ 
 luego se incresa a la pagina * [gitignore](https://www.gitignore.io/)
 se escriben algunas palabras clave como por ejemplo: OSX, Windows, Node, Polymer, SublimeText, c, c++, visual studio code, etc.
