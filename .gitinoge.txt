@@ -1,7 +1,4 @@
 
-# Creado por https://www.toptal.com/developers/gitignore/api/visualstudiocode,c,c++,windows
-# Edite en https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c,c++,windows
-
 ### C ###
 # Requisitos previos
 *.D
@@ -84,6 +81,7 @@ dkms.conf
 ! .vscode / tasks.json
 ! .vscode / launch.json
 * .code-espacio de trabajo
+
 ### vscode ###
 .vscode/*
 !.vscode/settings.json
