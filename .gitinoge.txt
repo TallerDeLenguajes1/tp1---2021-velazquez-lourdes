@@ -120,5 +120,3 @@ $ RECICLAJE.BIN /
 
 # Accesos directos de Windows
 * .lnk
-
-# Fin de https://www.toptal.com/developers/gitignore/api/visualstudiocode,c,c++,windows
